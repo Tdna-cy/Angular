@@ -1,0 +1,25 @@
+/* Link di navigazione migliorato */
+nav a {
+  display: inline-block;
+  background-color: #28a745; /* Colore aggiornato per uno stile più moderno */
+  color: white;
+  padding: 12px 24px; /* Maggiore spazio per un migliore design */
+  font-size: 18px; /* Font più grande per leggibilità */
+  font-weight: 600; /* Font più spesso per evidenziare */
+  text-decoration: none;
+  border-radius: 8px; /* Angoli più arrotondati per uno stile moderno */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunta di una leggera ombra */
+}
+
+nav a:hover {
+  background-color: #218838; /* Colore hover leggermente più scuro */
+  transform: translateY(-4px); /* Aumento dell'elevazione per l'effetto hover */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Ombra più pronunciata per hover */
+}
+
+nav a:active {
+  background-color: #1e7e34; /* Colore più scuro durante il clic */
+  transform: translateY(1px); /* Leggera riduzione dell'elevazione durante il clic */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ripristino dell'ombra originale */
+}

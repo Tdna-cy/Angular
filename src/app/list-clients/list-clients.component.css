@@ -1,0 +1,56 @@
+/* Button Styles */
+button {
+  background-color: #28a745; /* Colore aggiornato per uno stile più moderno */
+  color: white;
+  padding: 12px 24px; /* Maggiore spazio per migliorare l'interattività */
+  font-size: 18px; /* Font più grande per maggiore leggibilità */
+  font-weight: bold;
+  border: none;
+  border-radius: 8px; /* Angoli più arrotondati */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunta di un'ombra per effetto di profondità */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Ridotto il tempo di trasformazione */
+  margin-top: 15px; /* Maggiore distanza sopra */
+}
+
+button:hover {
+  background-color: #218838; /* Colore hover leggermente più scuro */
+  transform: translateY(-3px); /* Leggera elevazione per l'effetto hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Maggiore ombra durante hover */
+}
+
+button:active {
+  transform: translateY(1px); /* Effetto di pressione */
+}
+
+/* Input Styles */
+input {
+  width: 100%;
+  padding: 12px; /* Maggiore padding per migliore ergonomia */
+  font-size: 16px; /* Font più grande */
+  border: 1px solid #ced4da; /* Colore del bordo più delicato */
+  border-radius: 6px; /* Angoli leggermente più arrotondati */
+  margin-bottom: 20px; /* Maggiore distanza tra gli elementi */
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Leggera ombra per il campo di input */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #28a745; /* Colore aggiornato per l'input focus */
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.5); /* Colore ombra più morbido */
+  outline: none;
+}
+
+/* Form Spacing */
+form div {
+  margin-bottom: 25px; /* Maggiore distanza tra i blocchi di input */
+}
+
+/* Heading Style */
+h2 {
+  color: #444; /* Leggermente più scuro */
+  margin-bottom: 25px; /* Maggiore distanza sotto il titolo */
+  font-size: 24px; /* Titolo più grande */
+  font-weight: 600; /* Più evidenza al titolo */
+}

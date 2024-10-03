@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "root",
+      "password": "key01"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "key02"
+    }
+  ],
+  "clients": [
+    {
+      "codice_fiscale": "EFGH67890L02M601A",
+      "nome": "Luca",
+      "cognome": "Rossi",
+      "azienda": "Rossi Tech Solutions",
+      "email": "luca.rossi@example.com",
+      "id": "kasfd3245",
+      "userId": 1
+    },
+    {
+      "codice_fiscale": "IJKL12345M03N701B",
+      "nome": "Giulia",
+      "cognome": "Verdi",
+      "azienda": "Verdi Consulting",
+      "email": "giulia.verdi@example.com",
+      "id": "IYTe28187",
+      "userId": 1
+    },
+    {
+      "codice_fiscale": "IJKL18745M03N701B",
+      "nome": "Mario",
+      "cognome": "Bianchi",
+      "azienda": "Bianchi Company",
+      "email": "Mario.Bianchi@example.com",
+      "id": "IYT789187",
+      "userId": 1
+    }
+  ]
+}

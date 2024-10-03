@@ -1,0 +1,33 @@
+button[type="submit"] {
+    background-color: #6200ea; 
+    color: white;
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+  
+
+  button[type="submit"]:hover {
+    background-color: #3700b3; 
+    transform: translateY(-3px); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  button[type="submit"]:active {
+    background-color: #311b92; 
+    transform: translateY(0); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  button[type="submit"]:disabled {
+    background-color: #bdbdbd; 
+    cursor: not-allowed; 
+    box-shadow: none; 
+  }
