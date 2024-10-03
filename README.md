@@ -5,6 +5,6 @@
 - Inserimento, modifica e cancellazione di un cliente mediante richieste HTTP
 
 Proggetto di gruppo:
-Tommaso Di Nanno
-Domenico Sireni
+Tommaso Di Nanno,
+Domenico Sireni,
 Manuel Ciferni
